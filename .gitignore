@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# ClipForge output
+out/
+output/
+clips_out/
+
+# Video and audio files (keep the repo small)
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.wav
+*.m4a
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

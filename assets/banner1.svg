@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="sobhan — Computer Engineering, IGU, Istanbul">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f59e0b"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="accentV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f59e0b" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#f59e0b" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#f97316" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fadeLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f59e0b" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#f59e0b" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#f97316" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <clipPath id="card">
+      <rect width="1200" height="320" rx="16"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <circle cx="200" cy="160" r="150" fill="#f59e0b" fill-opacity="0.05"/>
+  </g>
+  <path d="M40 64V40H64" fill="none" stroke="#f59e0b" stroke-opacity="0.6" stroke-width="2"/>
+  <path d="M1136 40H1160V64" fill="none" stroke="#f59e0b" stroke-opacity="0.6" stroke-width="2"/>
+  <path d="M40 256V280H64" fill="none" stroke="#f59e0b" stroke-opacity="0.6" stroke-width="2"/>
+  <path d="M1136 280H1160V256" fill="none" stroke="#f59e0b" stroke-opacity="0.6" stroke-width="2"/>
+  <polygon points="200,70 278,115 278,205 200,250 122,205 122,115" fill="none" stroke="url(#accent)" stroke-width="3"/>
+  <polygon points="200,88 262,124 262,196 200,232 138,196 138,124" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+  <text x="200" y="182" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="60" font-weight="700" letter-spacing="2" fill="#ffffff">S<tspan fill="#f59e0b">M</tspan></text>
+  <rect x="344" y="80" width="2" height="160" fill="url(#accentV)"/>
+  <text x="385" y="112" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#8b949e">// building things that fix real problems</text>
+  <text x="385" y="178" font-family="Consolas, 'Courier New', monospace" font-size="60" font-weight="700" fill="#ffffff"><tspan fill="#f59e0b">&lt;</tspan>sobhan<tspan fill="#f59e0b"> /&gt;</tspan></text>
+  <rect x="387" y="203" width="313" height="2" fill="url(#accent)"/>
+  <circle cx="706" cy="204" r="4" fill="#f97316"/>
+  <text x="385" y="244" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" letter-spacing="4" fill="#8b949e">COMPUTER ENGINEERING  ·  IGU  ·  ISTANBUL</text>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#c9d1d9">
+    <rect x="980" y="98" width="150" height="34" rx="17" fill="#ffffff" fill-opacity="0.03" stroke="#30363d"/>
+    <circle cx="1002" cy="115" r="4" fill="#f59e0b"/>
+    <text x="1016" y="120">React</text>
+    <rect x="980" y="143" width="150" height="34" rx="17" fill="#ffffff" fill-opacity="0.03" stroke="#30363d"/>
+    <circle cx="1002" cy="160" r="4" fill="#f59e0b"/>
+    <text x="1016" y="165">Supabase</text>
+    <rect x="980" y="188" width="150" height="34" rx="17" fill="#ffffff" fill-opacity="0.03" stroke="#30363d"/>
+    <circle cx="1002" cy="205" r="4" fill="#f59e0b"/>
+    <text x="1016" y="210">Design</text>
+  </g>
+  <rect x="100" y="296" width="1000" height="1" fill="url(#fadeLine)"/>
+</svg>

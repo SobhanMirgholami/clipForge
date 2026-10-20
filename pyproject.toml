@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clipforge"
+version = "0.1.0"
+description = "Turn a long 16:9 video into vertical 1080x1920 short-form clips with ffmpeg."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Sobhan Mirgholami" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+clipforge = "clipforge.cli:main"
+
+[tool.setuptools]
+packages = ["clipforge"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
