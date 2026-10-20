@@ -15,6 +15,7 @@ env/
 out/
 output/
 clips_out/
+demo/
 
 # Video and audio files (keep the repo small)
 *.mp4

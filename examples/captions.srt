@@ -1,0 +1,25 @@
+1
+00:00:00,500 --> 00:00:03,000
+Welcome to ClipForge!
+
+2
+00:00:03,200 --> 00:00:06,000
+One long video in,
+vertical shorts out.
+
+3
+00:00:06,200 --> 00:00:09,500
+This caption crosses the clip end,
+so it gets trimmed, not dropped.
+
+4
+00:00:11,000 --> 00:00:14,000
+This one starts before the second clip.
+
+5
+00:00:14,200 --> 00:00:18,000
+Captions are retimed to start at zero.
+
+6
+00:00:22,000 --> 00:00:25,000
+This caption is outside every clip.
