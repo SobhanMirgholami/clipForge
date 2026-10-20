@@ -10,6 +10,7 @@
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+[![License](https://img.shields.io/badge/license-MIT-orange?style=for-the-badge)](LICENSE.md)
 
 **Python · FFmpeg · Video automation · YouTube Shorts · Reels · TikTok**
 
@@ -129,6 +130,7 @@ clipforge/
 │   └── make_demo.py         🧰 builds a demo video and the README images
 ├── assets/                  🖼️ banner and demo images
 ├── pyproject.toml           📦 project and install settings
+├── LICENSE.md               📜 MIT license
 └── README.md                📖 you are here
 ```
 
