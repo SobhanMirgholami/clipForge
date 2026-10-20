@@ -30,7 +30,7 @@ _MEASURED_KEYS = ("input_i", "input_tp", "input_lra", "input_thresh", "target_of
 
 
 def _targets(lufs: float) -> str:
-    return f"I={lufs}:TP={TRUE_PEAK}:LRA={LOUDNESS_RANGE}"
+    return f"I={lufs:g}:TP={TRUE_PEAK}:LRA={LOUDNESS_RANGE}"
 
 
 def measure_command(input_path: Path, start_ms: int, end_ms: int, lufs: float,
